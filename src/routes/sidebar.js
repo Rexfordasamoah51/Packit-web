@@ -19,50 +19,15 @@ const routes = [
   {
     path: '/app/PackChatUI',
     icon: 'ChartsIcon',
-    name: "Sankofa Bot",
+    name: "Bot",
   },
-  // {
-  //   path: '/app/buttons',
-  //   icon: 'ButtonsIcon',
-  //   name: 'Buttons',
-  // },
-  // {
-  //   path: '/app/modals',
-  //   icon: 'ModalsIcon',
-  //   name: 'Modals',
-  // },
+
   {
     path: '/app/Profile',
     icon: 'TablesIcon',
     name: 'Profile',
   },
-  // {
-  //   icon: 'PagesIcon',
-  //   name: 'Pages',
-  //   routes: [
-  //     // submenu
-  //     {
-  //       path: '/login',
-  //       name: 'Login',
-  //     },
-  //     {
-  //       path: '/create-account',
-  //       name: 'Create account',
-  //     },
-  //     {
-  //       path: '/forgot-password',
-  //       name: 'Forgot password',
-  //     },
-  //     {
-  //       path: '/app/404',
-  //       name: '404',
-  //     },
-  //     {
-  //       path: '/app/blank',
-  //       name: 'Blank',
-  //     },
-  //   ],
-  // },
+ 
 ]
 
 export default routes

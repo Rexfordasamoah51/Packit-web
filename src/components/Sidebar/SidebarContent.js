@@ -3,8 +3,6 @@ import {
   Route,
 } from 'react-router-dom';
 
-import { Button } from '@windmill/react-ui';
-
 import * as Icons from '../../icons';
 import routes from '../../routes/sidebar';
 import SidebarSubmenu from './SidebarSubmenu';
@@ -46,14 +44,7 @@ function SidebarContent({ click }) {
         )}
 
       </ul>
-      <div className="px-6 my-6">
-        <Button>
-          Create account
-          <span className="ml-2" aria-hidden="true">
-            +
-          </span>
-        </Button>
-      </div>
+
     </div>
   )
 }
